@@ -1,38 +1,9 @@
-<!doctype html>
-<html lang="en">
+<link rel="stylesheet" href="https://odoo.junglegym.com/im_livechat/external_lib.css" />
+<script type="text/javascript" src="https://odoo.junglegym.com/im_livechat/external_lib.js"></script>
+<script type="text/javascript" src="https://odoo.junglegym.com/im_livechat/loader/1"></script>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Odoo Chat Lite Test</title>
-    <script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="odooChatLite.css" />
-</head>
-
-<body>
-    <p>Odoo Chat Lite Test</p>
-
-    <script type="text/javascript" src="odooChatLite.js"></script>
-
-    <script type="text/javascript">
-        window.onload = function() {
-            var odooChatSettings = {
-                chatPrefix: 'oc_',
-                buttonName: 'Start chat!',
-                inputPlaceholder: 'Write something...',
-                headerMsg: 'Customer Support',
-                chatApi: {
-                    guestName: 'Guest'
-                }
-            };
-
-            var chatChannelId = 3;
-
-            odooChat.init('http://test-jungle12.therp.nl/', chatChannelId, odooChatSettings);
-        };
-    </script>
-</body>
-
-</html>
+<style>
+    body[data-gr-c-s-loaded='true']{
+        max-width: 0px !important;
+    }
+</style>
